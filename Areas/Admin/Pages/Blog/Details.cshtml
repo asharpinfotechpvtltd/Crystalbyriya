@@ -1,0 +1,67 @@
+﻿@page
+@model Astaberry.Areas.Admin.Pages.Blog.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Blog Details</h1>
+
+<div>
+    <h4>TblBlog</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.BlogTitle)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.BlogTitle)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.Blogdescription)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.Blogdescription)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.Author)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.Author)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.Category)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.Category)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.Image)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.Image)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.Month)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.Month)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.Year)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.Year)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.TblBlog.Blogid">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

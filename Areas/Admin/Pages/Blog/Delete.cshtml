@@ -1,0 +1,70 @@
+﻿@page
+@model Astaberry.Areas.Admin.Pages.Blog.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete Blog</h1>
+
+<h3>Are you sure you want to delete this Blog?</h3>
+<div>
+    <h4>TblBlog</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.BlogTitle)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.BlogTitle)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.Blogdescription)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.Blogdescription)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.Author)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.Author)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.Category)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.Category)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.Image)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.Image)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.Month)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.Month)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblBlog.Year)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblBlog.Year)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="TblBlog.Blogid" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

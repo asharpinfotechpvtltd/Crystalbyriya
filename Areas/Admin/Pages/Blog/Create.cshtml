@@ -1,0 +1,92 @@
+﻿@page
+@model Astaberry.Areas.Admin.Pages.Blog.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="TblBlog.BlogTitle" class="control-label"></label>
+        <input asp-for="TblBlog.BlogTitle" name="BlogTitle" class="form-control" />
+        <span asp-validation-for="TblBlog.BlogTitle" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TblBlog.Blogdescription" class="control-label"></label>
+        <textarea id="editor" name="Blogdescription" asp-for="TblBlog.Blogdescription">        
+                                </textarea>
+        <span asp-validation-for="TblBlog.Blogdescription" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TblBlog.Date" class="control-label"></label>
+        <input asp-for="TblBlog.Date" name="Date" class="form-control" />
+        <span asp-validation-for="TblBlog.Date" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TblBlog.Author" class="control-label"></label>
+        <input asp-for="TblBlog.Author" name="Author" class="form-control" />
+        <span asp-validation-for="TblBlog.Author" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TblBlog.Category" class="control-label"></label>
+        <select asp-for="TblBlog.Category" name="Category" class="form-control">
+            <option>Select</option>
+            <option>Skin Care</option>
+            <option>Hair Care</option>
+            <option>Professional Beauty</option>
+            <option>News And Events</option>
+        </select>
+        <span asp-validation-for="TblBlog.Category" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TblBlog.ThumbnailImage" class="control-label">Thumbnail Image Size 469*199</label>
+        <input asp-for="TblBlog.ThumbnailImage" type="file" name="thumbnail" class="form-control" />
+        <span asp-validation-for="TblBlog.ThumbnailImage" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TblBlog.Image" class="control-label">Image Size 890*350</label>
+        <input asp-for="TblBlog.Image" type="file" name="Image" class="form-control" />
+        <span asp-validation-for="TblBlog.Image" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TblBlog.Month" class="control-label"></label>
+        <input asp-for="TblBlog.Month" name="Month" class="form-control" />
+        <span asp-validation-for="TblBlog.Month" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TblBlog.Year" class="control-label"></label>
+        <input asp-for="TblBlog.Year" name="Year" class="form-control" />
+        <span asp-validation-for="TblBlog.Year" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TblBlog.CustomUrl" class="control-label"></label>
+        <input asp-for="TblBlog.CustomUrl" name="CustomUrl" class="form-control" />
+        <span asp-validation-for="TblBlog.CustomUrl" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TblBlog.Keywords" class="control-label"></label>
+        <input asp-for="TblBlog.Keywords" name="Keywords" class="form-control" />
+        <span asp-validation-for="TblBlog.Keywords" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="//cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>
+    <script>
+        const config = {
+            filebrowserImageBrowseUrl: "BlogImageBrowser",
+            filebrowserImageWindowWidth: 750,
+            filebrowserImageWindowHeight: 606,
+            filebrowserBrowseUrl: "Bloglinkbrowser",
+            filebrowserWindowWidth: 350,
+            filebrowserWindowHeight: 500
+        };
+        const editor = document.getElementById("editor");
+        CKEDITOR.replace(editor, config);
+    </script>
+}

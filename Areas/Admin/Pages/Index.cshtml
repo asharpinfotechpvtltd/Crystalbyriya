@@ -1,0 +1,250 @@
+﻿@page
+@model Astaberry.Areas.Admin.Pages.IndexModel
+@{
+
+
+}
+<div class="container-fluid mt-3">
+    <div class="row">
+        <div class="col-lg-4 col-sm-6">
+            <div class="card gradient-1">
+                <div class="card-body">
+                    <h3 class="card-title text-white">Products Sold</h3>
+                    <div class="d-inline-block">
+                        <h2 class="text-white">@Model.ProductSold</h2>
+                    </div>
+                    <span class="float-right display-5 opacity-5"><i class="fa fa-shopping-cart"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="card gradient-2">
+                <div class="card-body">
+                    <h3 class="card-title text-white">Total Sales</h3>
+                    <div class="d-inline-block">
+                        <h2 class="text-white">@Model.TotalSales</h2>
+                    </div>
+                    <span class="float-right display-5 opacity-5"><i class="fa fa-money"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="card gradient-3">
+                <div class="card-body">
+                    <h3 class="card-title text-white">Total Customers</h3>
+                    <div class="d-inline-block">
+                        <h2 class="text-white">@Model.TotalRegisteredUser</h2>
+                    </div>
+                    <span class="float-right display-5 opacity-5"><i class="fa fa-users"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body pb-0 d-flex justify-content-between">
+                            <div>
+                                <h4 class="mb-1">Product Sales</h4>
+                                <p>Total Earnings of the Month</p>
+                                <h3 class="m-0">Rs @Model.TotalSales</h3>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li class="d-inline-block mr-3"><a class="text-dark" href="#">Day</a></li>
+                                    <li class="d-inline-block mr-3"><a class="text-dark" href="#">Week</a></li>
+                                    <li class="d-inline-block"><a class="text-dark" href="#">Month</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <div id="chartdiv" style="border: 1px solid #ccc">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @*<div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="active-member">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                @Html.DisplayNameFor(model => model.TblOrderId[0].Orderid)
+                                            </th>
+                                            <th>
+                                                @Html.DisplayNameFor(model => model.TblOrderId[0].Date)
+                                            </th>
+                                            <th>
+                                                @Html.DisplayNameFor(model => model.TblOrderId[0].CouponCodeapplied)
+                                            </th>
+                                            <th>
+                                                @Html.DisplayNameFor(model => model.TblOrderId[0].Emailid)
+                                            </th>
+                                            <th>
+                                                @Html.DisplayNameFor(model => model.TblOrderId[0].Status)
+                                            </th>
+                                            <th>
+                                                Amount
+                                            </th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model.TblOrderId)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.Orderid)
+                                                </td>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.Date)
+                                                </td>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.CouponCodeapplied)
+                                                </td>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.Emailid)
+                                                </td>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.Status)
+                                                </td>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.TotalAmount)
+                                                </td>
+                                                <td colspan="2">
+                                                    <a href="./Orders/Details?Orderid=@item.Orderid&Email=@item.Emailid"><i class="fa fa-eye" title="Detail"></i></a>
+
+
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+
+
+
+
+
+
+</div>
+<!-- #/ container -->
+
+@section Scripts{
+   
+
+  
+       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    google.charts.load('current', { 'packages': ['corechart'] });
+
+    //Call function after Google Chart is loaded, it is required, otherwise you may get error
+    google.charts.setOnLoadCallback(DrawonLoad);
+  
+
+    function  DrawonLoad()
+    {
+        $(function () {
+            $.ajax({
+                type: 'GET',
+                url: '/api/Order',
+                success: function (chartsdata) {
+                    
+                    // Callback that creates and populates a data table,
+                    // instantiates the pie chart, passes in the data and
+                    // draws it.
+
+                    //get JSONList from Object
+                    var Data = chartsdata;
+                    var data = new google.visualization.DataTable();
+                   
+
+                    data.addColumn('string', 'productName');
+                    data.addColumn('number', 'totalCount');
+                    
+                    //Loop through each list data
+                    for (var i = 0; i < Data.length; i++) {
+                        data.addRow([Data[i].productName, Data[i].totalCount]);
+                    }
+
+                    // Instantiate and draw our chart, passing in some options
+                    var chart = new google.visualization.PieChart(document.getElementById('chartdiv'));
+                    //Draw pie chart command with data and chart options
+                    chart.draw(data,
+                        {
+                            title: "Total Sales",
+                            position: "top",
+                            fontsize: "14px",
+                        });
+
+                },
+                error: function () {
+                    alert("Error loading data! Please try again.");
+                }
+            });
+        })
+    
+    }
+
+    </script>
+   @* <script>
+        google.charts.load('current', { 'packages': ['corechart'] });
+        google.charts.setOnLoadCallback(callback);
+
+        function callback() {
+            var option = {
+                title: "Highest Item Sold",
+                width: 900,
+                height: 650,
+                legend: { position: 'none' },
+                vAxis: { viewWindow: { min: -1, max: 11 }, baselineColor: 'transparent' },
+                chartArea: {
+                    height: '80%', width: '85%', left: 100,
+                    backgroundColor: { stroke: "gray", strokeWidth: 1 }
+                },
+                pointSize: 10
+            };
+            var chart = new google.visualization.BarChart(document.getElementById('piechart_div'));
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Product Name');
+            data.addColumn('number', 'Total Sales');
+            drawChart();           
+
+            function drawChart() {
+                $.get('/api/Order', function (datas, status) {
+                    var timeStamp; var val;
+                    
+                        timeStamp = datas[0].productName;
+                        val = datas[0].totalCount;
+                    
+                    console.log(timeStamp);
+                    console.log(val);
+                    data.addRow([timeStamp, val]);                    
+                    chart.draw(data, option);
+                });
+            }
+        }
+       
+
+
+    </script>
+*@
+}

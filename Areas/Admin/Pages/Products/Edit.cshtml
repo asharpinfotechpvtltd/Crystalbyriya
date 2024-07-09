@@ -1,0 +1,87 @@
+﻿@page
+@model Astaberry.Areas.Admin.Pages.Products.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit Product</h1>
+
+<h4>If there is no Offer price applicable please enter actual price in offer price section</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="TblProduct.Id" />
+            <input type="hidden" asp-for="TblProduct.THUMBNAIL" />
+            <div class="form-group">
+                <label asp-for="TblProduct.Skucode" class="control-label"></label>
+                <input asp-for="TblProduct.Skucode" class="form-control" />
+                <span asp-validation-for="TblProduct.Skucode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TblProduct.ProductName" class="control-label"></label>
+                <input asp-for="TblProduct.ProductName" class="form-control" />
+                <span asp-validation-for="TblProduct.ProductName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TblProduct. QTY" class="control-label"></label>
+                <input asp-for="TblProduct.QTY" class="form-control" />
+                <span asp-validation-for="TblProduct.QTY" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TblProduct.Price" class="control-label"></label>
+                <input asp-for="TblProduct.Price" class="form-control" />
+                <span asp-validation-for="TblProduct.Price" class="text-danger"></span>
+            </div>
+           
+          
+            <div class="form-group">
+                <label asp-for="TblProduct.ParentCode" class="control-label"></label>
+                <input asp-for="TblProduct.ParentCode" class="form-control" />
+                <span asp-validation-for="TblProduct.ParentCode" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="TblProduct.THUMBNAIL" class="control-label">Only .Webp files (Dimension 400X400)</label>
+                <input asp-for="TblProduct.THUMBNAIL" class="form-control" type="file" name="file" id="file" accept="image/webp" />
+                <span asp-validation-for="TblProduct.THUMBNAIL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" id="Submit" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+<script>
+    $('#file').on('change', function () {
+        var ext = $('#file').val().split('.').pop().toLowerCase();
+        if ($.inArray(ext, ['webp']) == -1) {
+            alert('invalid extension!');
+            $("#Submit").hide();
+            return;
+
+        } else {
+            $("#Submit").show();
+        }
+        const size =
+            (this.files[0].size / 1024);
+
+        if (size > 50) {
+            alert("File must be less than 50kb");
+            $("#Submit").hide();
+        } else {
+            $("#Submit").show();
+        }
+    });
+
+</script>
+}

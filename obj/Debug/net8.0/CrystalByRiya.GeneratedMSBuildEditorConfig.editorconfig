@@ -1,0 +1,491 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CrystalByRiya
+build_property.RootNamespace = CrystalByRiya
+build_property.ProjectDir = D:\Websites\Crystalsbyriya\Website\CrystalByRiya\CrystalByRiya\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = D:\Websites\Crystalsbyriya\Website\CrystalByRiya\CrystalByRiya
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Advertise/BlogImageBrowser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQWR2ZXJ0aXNlXEJsb2dJbWFnZUJyb3dzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Advertise/BlogLinkBrowser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQWR2ZXJ0aXNlXEJsb2dMaW5rQnJvd3Nlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Advertise/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQWR2ZXJ0aXNlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Advertise/SendSms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQWR2ZXJ0aXNlXFNlbmRTbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Banners/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQmFubmVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Banners/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQmFubmVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Banners/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQmFubmVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Blog/BlogImageBrowser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQmxvZ1xCbG9nSW1hZ2VCcm93c2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Blog/BlogLinkBrowser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQmxvZ1xCbG9nTGlua0Jyb3dzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Blog/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQmxvZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Blog/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQmxvZ1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Blog/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQmxvZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Blog/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQmxvZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Brands/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQnJhbmRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Brands/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQnJhbmRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Brands/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQnJhbmRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Brands/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQnJhbmRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Brands/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQnJhbmRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Cities/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ2l0aWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Cities/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ2l0aWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Cities/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ2l0aWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Cities/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ2l0aWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Cities/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ2l0aWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Concerns/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ29uY2VybnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Concerns/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ29uY2VybnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Concerns/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ29uY2VybnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Concerns/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ29uY2VybnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Concerns/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ29uY2VybnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/CouponCodes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ291cG9uQ29kZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/CouponCodes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ291cG9uQ29kZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/CouponCodes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ291cG9uQ29kZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/CouponCodes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ291cG9uQ29kZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/CouponCodes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ291cG9uQ29kZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/ImageGalleries/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSW1hZ2VHYWxsZXJpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/ImageGalleries/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSW1hZ2VHYWxsZXJpZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/ImageGalleries/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSW1hZ2VHYWxsZXJpZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/ImageGalleries/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSW1hZ2VHYWxsZXJpZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/ImageGalleries/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSW1hZ2VHYWxsZXJpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/JobPosting/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSm9iUG9zdGluZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/JobPosting/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSm9iUG9zdGluZ1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/JobPosting/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSm9iUG9zdGluZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/JobPosting/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcSm9iUG9zdGluZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/MenuCollections/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcTWVudUNvbGxlY3Rpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/MenuCollections/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcTWVudUNvbGxlY3Rpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/MenuCollections/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcTWVudUNvbGxlY3Rpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/MenuCollections/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcTWVudUNvbGxlY3Rpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/MenuCollections/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcTWVudUNvbGxlY3Rpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/OfferImages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcT2ZmZXJJbWFnZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/OfferImages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcT2ZmZXJJbWFnZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/OfferImages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcT2ZmZXJJbWFnZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/OfferImages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcT2ZmZXJJbWFnZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/OfferImages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcT2ZmZXJJbWFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Orders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Orders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcT3JkZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcT3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Orders/PrintInvoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcT3JkZXJzXFByaW50SW52b2ljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Orders/PrintReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcT3JkZXJzXFByaW50UmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Orders/ShipRocket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcT3JkZXJzXFNoaXBSb2NrZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/OtherBanners/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcT3RoZXJCYW5uZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/OtherBanners/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcT3RoZXJCYW5uZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/ProductByConcern/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdEJ5Q29uY2VyblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/ProductByConcern/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdEJ5Q29uY2VyblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/ProductByConcern/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdEJ5Q29uY2VyblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/ProductByConcern/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdEJ5Q29uY2VyblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/ProductByConcern/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdEJ5Q29uY2VyblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/ProductDetail/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdERldGFpbFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/ProductDetail/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdERldGFpbFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/ProductDetail/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdERldGFpbFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/ProductDetail/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdERldGFpbFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/ProductDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdERldGFpbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Range/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUmFuZ2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Range/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUmFuZ2VcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Range/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUmFuZ2VcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Range/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUmFuZ2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Range/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUmFuZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Reports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUmVwb3J0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Reviews/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUmV2aWV3c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Reviews/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUmV2aWV3c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Reviews/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUmV2aWV3c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Reviews/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUmV2aWV3c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Reviews/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUmV2aWV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Sizes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2l6ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Sizes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2l6ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Sizes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2l6ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Sizes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2l6ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/Sizes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2l6ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/SkinTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2tpblR5cGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/SkinTypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2tpblR5cGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/SkinTypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2tpblR5cGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/SkinTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2tpblR5cGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/SkinTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2tpblR5cGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/StoreFinders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU3RvcmVGaW5kZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/StoreFinders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU3RvcmVGaW5kZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/StoreFinders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU3RvcmVGaW5kZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/StoreFinders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU3RvcmVGaW5kZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Pages/StoreFinders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU3RvcmVGaW5kZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/Shared/_RoleMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cU2hhcmVkXF9Sb2xlTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Areas/Admin/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Websites/Crystalsbyriya/Website/CrystalByRiya/CrystalByRiya/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3xu89zt77k

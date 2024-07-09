@@ -1,0 +1,124 @@
+﻿@page
+@model Astaberry.Areas.Admin.Pages.Reports.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    double? Subamount = 0;
+    double? TotalAmount = 0;
+    double? DiscountAmount = 0;
+}
+<style id="table_style" type="text/css">
+    body {
+        font-family: Arial;
+        font-size: 10pt;
+    }
+
+    table {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+    }
+
+        table th {
+            background-color: #F7F7F7;
+            color: #333;
+            font-weight: bold;
+        }
+
+        table th, table td {
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+</style>
+<form asp-page-handler="Search">
+    <table class="table"><tr><td>Order Status</td><td><select class="form-control" name="Status"><option>Select</option><option>Pending</option><option>Completed</option><option>Cancelled</option></select></td><td><input type="submit" value="Submit" class="btn btn-primary" /></td><td><input type="button" class="btn btn-primary" value="Print" id="exportBtn1"/></td></tr></table>
+</form>
+<div>
+    <table class="table text-center table-bordered verticle-middle" id="Printtbl">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.TblOrderId[0].Orderid)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TblOrderId[0].Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TblOrderId[0].CouponCodeapplied)
+                </th>
+                <th>
+                    Contact No.
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TblOrderId[0].Status)
+                </th>
+                <th>
+                    Amount
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.TblOrderId)
+            {
+                Subamount += Convert.ToDouble(item.TotalAmount);
+                DiscountAmount += Convert.ToDouble(item.CouponCodeapplied);
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Orderid)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CouponCodeapplied)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Emailid)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TotalAmount)
+                    </td>
+                </tr>
+            }
+            <tr>
+                <td colspan="5" style="text-align:right;">
+                    Sub Total:
+                </td>
+                <td colspan="1">₹ @Subamount</td>
+            </tr>
+            <tr>
+
+                <td colspan="5" style="text-align:right;">
+                    Discount:
+                </td>
+                <td colspan="1">₹ @DiscountAmount</td>
+            </tr>
+            <tr>
+                <td colspan="5" style="text-align:right;">
+                    Total Amount:
+                </td>
+                @{
+                    TotalAmount = Subamount - DiscountAmount;
+                }
+                <td colspan="1">₹ @TotalAmount</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<script src="~/js/vendor/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/linways/table-to-excel@v1.0.4/dist/tableToExcel.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#exportBtn1").click(function () {
+            TableToExcel.convert(document.getElementById("Printtbl"), {
+                name: "SalesReport.xlsx",
+                sheet: {
+                    name: "Sheet1"
+                }
+            });
+        });
+    });
+</script>

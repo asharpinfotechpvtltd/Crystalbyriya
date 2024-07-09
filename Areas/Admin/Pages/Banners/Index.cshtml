@@ -1,0 +1,54 @@
+﻿@page
+@model Astaberry.Areas.Admin.Pages.Banners.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Banners List</h1>
+
+<p>
+    <a asp-page="Create">Create New Banners</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TblImageGallery[0].CategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TblImageGallery[0].SubCategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TblImageGallery[0].DesktopImageName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TblImageGallery[0].MobileImageName)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.TblImageGallery) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubCategoryName)
+            </td>
+            <td>
+                <img src="~/img/slider/cosmetic/@item.DesktopImageName" class="img-fluid" />
+            </td>
+            <td>
+                <img src="~/img/slider/cosmetic/@item.MobileImageName" class="img-fluid" />
+            </td>
+            
+            <td>
+                
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
